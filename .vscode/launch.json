@@ -1,0 +1,445 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OverrideDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.OverrideDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "ComplexDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.ComplexDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "ScannerDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.ScannerDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "CalculatorDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.CalculatorDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "FactorialDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.FactorialDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "ConcatenateDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.ConcatenateDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "simone",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.simone",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "jackie",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.jackie",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "sanji",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.sanji",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "Kaz",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.Kaz",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "CurrentThreadDemo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.CurrentThreadDemo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "ChainExcDemo",
+            "request": "launch",
+            "mainClass": "ChainExcDemo"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionDemo",
+            "request": "launch",
+            "mainClass": "ExceptionDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "FinallyDemo",
+            "request": "launch",
+            "mainClass": "FinallyDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Next",
+            "request": "launch",
+            "mainClass": "Next"
+        },
+        {
+            "type": "java",
+            "name": "hehe",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.hehe",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "scott",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.scott",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "kid",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.kid",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "a22",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.a22",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "bar",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.bar",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.Stack",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "akatsuki",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.akatsuki",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "yami",
+            "request": "launch",
+            "mainClass": "src.GOJO.yami"
+        },
+        {
+            "type": "java",
+            "name": "yami",
+            "request": "launch",
+            "mainClass": "GOJO.yami"
+        },
+        {
+            "type": "java",
+            "name": "req",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.req",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "kid",
+            "request": "launch",
+            "mainClass": "kid"
+        },
+        {
+            "type": "java",
+            "name": "kid",
+            "request": "launch",
+            "mainClass": "gojo.kid"
+        },
+        {
+            "type": "java",
+            "name": "tatsumaki",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.tatsumaki",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "nami",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.nami",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "cobra",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.cobra",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "hiori",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.hiori",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "jugo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.jugo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "calling",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.calling",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "barto",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.barto",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "trix",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.trix",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "deku",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.deku",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "oj",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.oj",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "kanjuro",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.kanjuro",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "todo",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.todo",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "mason",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.mason",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "cake",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.cake",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "c8",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.c8",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "commandline",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.commandline",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "doffy",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.doffy",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "leaf",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.leaf",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "overflow",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.overflow",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "arar",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.arar",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "jam",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.jam",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "han",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.han",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "joker",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.joker",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "prints",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.prints",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "recursion",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.recursion",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.factorial",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "recursive",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.recursive",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "once",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.once",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "again",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.again",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "returns",
+            "request": "launch",
+            "mainClass": "templars.abstergo.helix.returns",
+            "projectName": "pluton"
+        },
+        {
+            "type": "java",
+            "name": "lee",
+            "request": "launch",
+            "mainClass": "lee"
+        },
+        {
+            "type": "java",
+            "name": "hero",
+            "request": "launch",
+            "mainClass": "hero",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "hero",
+            "request": "launch",
+            "mainClass": "hero",
+            "projectName": "java_bc60f2e3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "demo"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        }
+    ]
+}
