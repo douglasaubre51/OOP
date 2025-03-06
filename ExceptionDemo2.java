@@ -9,7 +9,7 @@ class ValidityException extends Exception{
 	}
 }
 
-public class ExceptionDemo{
+public class ExceptionDemo2{
 	public static void main(String[] args){
 		Scanner scanner=new Scanner(System.in);
 
@@ -23,38 +23,33 @@ public class ExceptionDemo{
 		
 		for(int i=0;i<size;i++){
 			try{
-				int temp=scanner.nextInt();
+				mark1[i]=scanner.nextInt();
 
-				if(temp>100 | temp<0){
-					throw new ValidityException("error:invalid range!mark is either greater than 100 or less than 0!");
-				}	
-				else
-					mark1[i]=temp;
+				if(mark1[i]>100 || mark1[i]<0)
+					throw new ValidityException("error:invalid range!mark greater than 100 or less than 0!");
 
 			}catch(ValidityException ex){
 				System.out.println(ex.message);
-				i--;
+			
 			}
 		}
-			
+		
+		
 		System.out.println("enter mark2 of students:");
 		
 		for(int i=0;i<size;i++){
 			try{
-				int temp=scanner.nextInt();
+				mark2[i]=scanner.nextInt();
 
-				if(temp>100 | temp<0){
-					throw new ValidityException("error:invalid range!mark is either greater than 100 or less than 0!");
-				}	
-				else
-					mark2[i]=temp;
+				if(mark2[i]>100 || mark2[i]<0)
+					throw new ValidityException("error:invalid range!mark greater than 100 or less than 0!");
 
 			}catch(ValidityException ex){
 				System.out.println(ex.message);
-				i--;
+				
 			}
 		}
-		
+
 		int result[]=new int[size];
 		
 		for(int i=0;i<size;i++){

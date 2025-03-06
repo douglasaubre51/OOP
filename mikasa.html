@@ -1,0 +1,43 @@
+
+<html>
+<head>
+	<script>
+		function Clear(){
+			document.getElementById("name").value="";
+			document.getElementById('password').value="";
+			}
+		function Valid(){
+			var n=document.getElementById('name').value;
+			var p=document.getElementById('password').value;
+			if(n==''){
+				alert('Please enter your name!');
+				document.getElementById('name').focus();
+				return false;
+			}
+			if(p==''){
+				alert('Please enter your password!');
+				document.getElementById('password').focus();
+				return false;
+			}
+			else{
+				return true;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1><b><u>MTI Thrissur</u><b></h1>
+	<h3>Login</h3>
+	<form name='garp' method=get
+	action='l' onSubmit='return Valid();'>
+	<label>name :</label><input type='text' id='name' size='30'/>
+	<br><br>
+	<label>password :</label><input 
+	type='password' id='password' size='30'/>
+	<br><br>
+	<input type='submit' value='check' />
+	<input type='button' id='clears' 
+	value='reset' onClick='Clear();' />
+	</form>
+</body>
+</html>

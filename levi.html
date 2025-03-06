@@ -1,0 +1,62 @@
+<html>
+<head>
+	<script>
+		function Calcs(){
+			var p=document.getElementById('phone').value;
+			var no=document.getElementById('tickets').value;
+			if(p==""){
+				alert('Please enter phone no!');
+				document.getElementById('phone').focus();
+				return false;
+			}
+			else if(no==""){
+				alert('Please enter no of tickets!');
+				document.getElementById('no').focus();
+				return false;
+			}
+			else if(
+			(document.getElementById('c1').checked==false)&&
+			(document.getElementById('c2').checked==false)&&
+			(document.getElementById('c3').checked==false)){
+				alert('Please select The Class!');
+				return false;
+			}
+			else{
+				if(document.getElementById('c1').checked==true){
+					var amt=no*200;	
+				}
+				else if
+				(document.getElementById('c2').checked==true){
+					var amt=no*150;
+				}
+				else{
+					var amt=no*100;
+				}
+			document.getElementById('result').innerHTML=amt;
+			return true;
+			}
+		}
+	</script>
+</head>
+<body>
+<h1><b>Book MyShow<b></h1>
+<h3>Home</h3>
+	<form name='eren' method=get action='y' 
+		onSubmit='return Calcs();'>
+	<label>Phone :</label><input type='text' id='phone' ><br><br>
+	<label>No of Tickets :</label><input 
+		type='text' id='tickets' /><br><br>
+	<label>Class :</label><input type='checkbox' value='red'
+		id='c1'>Red</input>
+		<input type='checkbox' value='blue'
+		id='c2'>Blue</input>
+		<input type='checkbox' value='green'
+		id='c3'>Green</input><br><br>
+		<input type='button' value='book' onClick='Calcs();'
+		id='book'></input>
+		<input type='reset' value='clear'
+		id='clear'></input>
+	</form>
+<p id='result'> </p>
+</body>
+</html>

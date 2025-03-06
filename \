@@ -1,0 +1,58 @@
+import java.util.Scanner;
+import java.lang.Extension;
+
+
+class ValidityException extends Exception{
+	string message;
+
+	public ValidityException(string message){
+		this.message=message;
+	}
+}
+
+public class ExceptionDemo{
+	public static void main(String[] args){
+		Scanner scanner=new Scanner(System.in);
+
+		System.out.println("Enter no of students:");
+		int size=scanner.nextInt();
+
+		int[] mark1=new int[size];
+		int[] mark2=new int[size];
+
+		System.out.println("enter mark1 of students:");
+
+		for(int i=0;i<size;i++){
+			mark1[i]=scanner.nextInt();
+		}
+
+		System.out.println("enter mark2 of students:");
+
+		for(int i=0;i<size;i++){
+			mark2[i]=scanner.nextInt();
+		}
+
+		System.out.println("validating mark1...");
+
+		try{
+			for(int i=0;i<size;i++){
+				if(mark1[i]<0||mark1[i]>100){
+					throw new ValidityException("mark"+mark1[i]+" is either less than zero or greater than 100!");
+			}
+		}catch(ValidityException ex){
+			System.out.println("error:"+ex.message);
+		}
+
+		System.out.println("validating mark2...");
+
+		try{
+			for(int i=0;i<size;i++){
+				if(mark2[i]<0||mark2[i]>100){
+					throw new ValidityException("mark"+mark2[i]+" is either less than zero or greater than 100!");
+			}
+		}catch(ValidityException ex){
+			System.out.println("error:"+ex.message);
+		}
+
+	}
+}
