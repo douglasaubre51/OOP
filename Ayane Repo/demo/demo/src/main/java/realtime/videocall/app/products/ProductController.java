@@ -6,17 +6,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-
-
 @RestController
 public class ProductController {
     @GetMapping
-    public String getMethodName(){
+    public String getMethodName() {
         return "i am abin";
     }
 
     @PostMapping
-    public String postMethodName(){
-        return "i am alan ps";
+    public String postMethodName() {
+        return "i a ps";
     }
 }
