@@ -17,6 +17,6 @@ public class ProductController {
 
     @PostMapping
     public String postMethodName(){
-        return "i am post";
+        return "i am alan ps";
     }
 }
