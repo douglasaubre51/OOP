@@ -5,6 +5,7 @@ import java.net.*;
 public class HttpClientDemo {
     public static void main(String[] args) {
         try {
+            //use http instead of https!
             URL url=new URL("http://localhost:8080");
             URLConnection _conn=url.openConnection();
 
