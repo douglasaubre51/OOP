@@ -30,12 +30,25 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-
+<!-- added by me -->
 	<dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
 		<version>6.6.10.Final</version>
 	</dependency>
+
+<!-- without this package hibernate wont work since hibernate is actually inside jpa -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.30</version>
+		<scope>provided</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
