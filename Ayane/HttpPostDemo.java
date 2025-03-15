@@ -24,7 +24,7 @@ public class HttpPostDemo{
 	try{
 	    System.out.println("starting post connection!");
 
-	    String urlDataString="http://localhost:8080/users";
+	    String urlDataString="http://localhost:8080/addUser";
 	    URL url=new URI(urlDataString).toURL();
 
 	    HttpURLConnection connection=(HttpURLConnection) url.openConnection();
@@ -41,7 +41,7 @@ public class HttpPostDemo{
 
 	    int responseCode=connection.getResponseCode();
 
-	    if(responseCode==HttpURLConnection.HTTP_OK){
+	    if(responseCode==HttpURLConnection.HTTP_OK||responseCode==HttpURLConnection.HTTP_CREATED){
 		StringBuilder response=new StringBuilder();
 
 		try(BufferedReader reader=new BufferedReader(new InputStreamReader(connection.getInputStream()))){

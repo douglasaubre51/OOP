@@ -1,26 +1,36 @@
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.*;
 
 public class HttpClientDemo {
-    public static void main(String[] args) {
-        try {
-            //use http instead of https!
-            URL url=new URL("http://localhost:8080");
-            URLConnection _conn=url.openConnection();
+	public static void main(String[] args) {
+		System.out.println("Starting GET ayane-api-client...");
 
-            InputStreamReader streamReader=new InputStreamReader(_conn.getInputStream());
-            BufferedReader reader=new BufferedReader(streamReader);
+		System.out.println("enter user id:");
+		Scanner scanner=new Scanner(System.in);
+		Long id=scanner.nextLong();
 
-            String data;
+		try {
+			//use http instead of https!
+			URL url=new URL("http://localhost:8080/getUser?id="+id);
+			URLConnection _conn=url.openConnection();
 
-            while((data=reader.readLine())!=null){
-                System.out.println("got : "+data);
-            }
+			InputStreamReader streamReader=new InputStreamReader(_conn.getInputStream());
+			System.out.println("received data from Ayane web api!");
 
-            streamReader.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+			BufferedReader reader=new BufferedReader(streamReader);
+
+			String data;
+
+			while((data=reader.readLine())!=null){
+				System.out.println("payload from Ayane: "+data);
+			}
+
+
+			streamReader.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }

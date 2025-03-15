@@ -3,10 +3,7 @@ package realtime.videocall.app.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 @Entity
 @Table(name = "User")
 public class User {
@@ -19,6 +16,9 @@ public class User {
 
     @Column(nullable = false, unique = true)
     private String emailID;
+
+    @Column
+    private String password;
 
     @Column
     private boolean isOnline = false;
