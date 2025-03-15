@@ -31,11 +31,11 @@
 	</properties>
 	<dependencies>
 <!-- added by me -->
-	<dependency>
+	<!-- <dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
 		<version>6.6.10.Final</version>
-	</dependency>
+	</dependency> -->
 
 <!-- without this package hibernate wont work since hibernate is actually inside jpa -->
     <dependency>
@@ -99,4 +99,21 @@
 		</plugins>
 	</build>
 
+
+
+	<dependencyManagement>
+	
+
+		<dependencies>
+		
+
+			<dependency>
+				<groupId>org.hibernate.orm</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>6.6.8.Final</version>
+			</dependency>
+
+		</dependencies>
+
+	</dependencyManagement>
 </project>

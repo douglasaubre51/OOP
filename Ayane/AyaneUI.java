@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.event.*;
 import javax.swing.*;
 
 public class AyaneUI {
@@ -11,14 +12,13 @@ public class AyaneUI {
 		jFrame.setSize(500, 500);
 
 		// write java ui here
-
-		// center layout
+		// layout
 		JPanel jPanel = new JPanel(new GridBagLayout());
 		jFrame.add(jPanel);
 
 		// heading
-		JLabel h1Label = new JLabel("Login");
-		h1Label.setFont(new Font("Cascadia Code", Font.BOLD, 45));
+		JLabel h1Label = new JLabel("Create New Account");
+		h1Label.setFont(new Font("Cascadia Code", Font.BOLD, 25));
 
 		GridBagConstraints h1gbc = new GridBagConstraints();
 		h1gbc.gridx = 0;
@@ -26,23 +26,23 @@ public class AyaneUI {
 
 		jPanel.add(h1Label, h1gbc);
 
-		// name
-		// JLabel nameLabel = new JLabel("Name");
-		// GridBagConstraints nameLabelgbc = new GridBagConstraints();
-		// nameLabelgbc.gridx = 0;
-		// nameLabelgbc.gridy = 1;
-
-		// jPanel.add(nameLabel, nameLabelgbc);
-
 		// name box
 		JTextField nameBox=new JTextField(15);
-		nameBox.setText("email");
+		nameBox.setText("name");
 
 		GridBagConstraints nameBoxgbc=new GridBagConstraints();
 		nameBoxgbc.gridx=0;
 		nameBoxgbc.gridy=1;
-
 		jPanel.add(nameBox,nameBoxgbc);
+
+		// email box
+		JTextField emailBox=new JTextField(15);
+		emailBox.setText("email");
+
+		GridBagConstraints emailBoxgbc=new GridBagConstraints();
+		emailBoxgbc.gridx=0;
+		emailBoxgbc.gridy=2;
+		jPanel.add(emailBox,emailBoxgbc);
 
 		// password box
 		JTextField passwordBox=new JTextField(15);
@@ -51,7 +51,6 @@ public class AyaneUI {
 		GridBagConstraints passwordBoxgbc=new GridBagConstraints();
 		passwordBoxgbc.gridx=0;
 		passwordBoxgbc.gridy=3;
-
 		jPanel.add(passwordBox,passwordBoxgbc);
 
 		// submit button
@@ -60,12 +59,10 @@ public class AyaneUI {
 		GridBagConstraints submitBtngbc = new GridBagConstraints();
 		submitBtngbc.gridx = 0;
 		submitBtngbc.gridy = 4;
-
 		jPanel.add(submitBtn, submitBtngbc);
 
-		// to show app
+		// to display app window
 		jFrame.setVisible(true);
-
 		System.out.println("ayane is running!...");
 	}
 }

@@ -3,6 +3,10 @@ package realtime.videocall.app.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "User")
 public class User {
