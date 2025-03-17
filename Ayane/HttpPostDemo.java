@@ -24,7 +24,7 @@ public class HttpPostDemo{
 	try{
 	    System.out.println("starting post connection!");
 
-	    String urlDataString="http://localhost:8080/addUser";
+	    String urlDataString="https://ayane-web-api.onrender.com/addUser";
 	    URL url=new URI(urlDataString).toURL();
 
 	    HttpURLConnection connection=(HttpURLConnection) url.openConnection();

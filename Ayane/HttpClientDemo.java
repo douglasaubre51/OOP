@@ -13,7 +13,7 @@ public class HttpClientDemo {
 
 		try {
 			//use http instead of https!
-			URL url=new URL("http://localhost:8080/getUser?id="+id);
+			URL url=new URL("https://ayane-web-api.onrender.com/getUser?id="+id);
 			URLConnection _conn=url.openConnection();
 
 			InputStreamReader streamReader=new InputStreamReader(_conn.getInputStream());
