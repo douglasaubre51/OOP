@@ -1,8 +1,10 @@
-package com.ayane.ui;
+package com.ayane.ui.client;
 
 import java.net.URI;
 import jakarta.websocket.*;
 import java.util.*;
+
+import com.ayane.ui.server.ChatServer;
 
 @ClientEndpoint
 public class ClientApp {
@@ -45,8 +47,8 @@ public class ClientApp {
 					ChatServer.broadcast(message, session);
 				}
 
-				if(!(session.isOpen())){
-					container.connectToServer(ClientApp.class,new URI("ws://localhost:8080/chat"));
+				if (!(session.isOpen())) {
+					container.connectToServer(ClientApp.class, new URI("ws://localhost:8080/chat"));
 				}
 			}
 

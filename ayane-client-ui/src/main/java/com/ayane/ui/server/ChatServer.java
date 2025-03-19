@@ -1,4 +1,4 @@
-package com.ayane.ui;
+package com.ayane.ui.server;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package com.ayane.ui;
+package com.ayane.ui.server;
 
 import org.eclipse.jetty.server.*;
 import org.eclipse.jetty.servlet.ServletContextHandler;
