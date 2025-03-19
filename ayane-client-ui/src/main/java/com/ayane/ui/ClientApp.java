@@ -28,7 +28,7 @@ public class ClientApp {
 	public static void main(String[] args) {
 		WebSocketContainer container = ContainerProvider.getWebSocketContainer();
 		try {
-			container.connectToServer(ClientApp.class, new URI("ws://localhost:8080/chat"));
+			container.connectToServer(ClientApp.class, new URI("ws://ayane-web-api.onrender.com/chat"));
 
 			while (true) {
 				Scanner scanner = new Scanner(System.in);
