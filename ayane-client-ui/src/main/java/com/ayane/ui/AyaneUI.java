@@ -1,5 +1,6 @@
+package com.ayane.ui;
+
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 public class AyaneUI {
@@ -27,31 +28,31 @@ public class AyaneUI {
 		jPanel.add(h1Label, h1gbc);
 
 		// name box
-		JTextField nameBox=new JTextField(15);
+		JTextField nameBox = new JTextField(15);
 		nameBox.setText("name");
 
-		GridBagConstraints nameBoxgbc=new GridBagConstraints();
-		nameBoxgbc.gridx=0;
-		nameBoxgbc.gridy=1;
-		jPanel.add(nameBox,nameBoxgbc);
+		GridBagConstraints nameBoxgbc = new GridBagConstraints();
+		nameBoxgbc.gridx = 0;
+		nameBoxgbc.gridy = 1;
+		jPanel.add(nameBox, nameBoxgbc);
 
 		// email box
-		JTextField emailBox=new JTextField(15);
+		JTextField emailBox = new JTextField(15);
 		emailBox.setText("email");
 
-		GridBagConstraints emailBoxgbc=new GridBagConstraints();
-		emailBoxgbc.gridx=0;
-		emailBoxgbc.gridy=2;
-		jPanel.add(emailBox,emailBoxgbc);
+		GridBagConstraints emailBoxgbc = new GridBagConstraints();
+		emailBoxgbc.gridx = 0;
+		emailBoxgbc.gridy = 2;
+		jPanel.add(emailBox, emailBoxgbc);
 
 		// password box
-		JTextField passwordBox=new JTextField(15);
+		JTextField passwordBox = new JTextField(15);
 		passwordBox.setText("password");
 
-		GridBagConstraints passwordBoxgbc=new GridBagConstraints();
-		passwordBoxgbc.gridx=0;
-		passwordBoxgbc.gridy=3;
-		jPanel.add(passwordBox,passwordBoxgbc);
+		GridBagConstraints passwordBoxgbc = new GridBagConstraints();
+		passwordBoxgbc.gridx = 0;
+		passwordBoxgbc.gridy = 3;
+		jPanel.add(passwordBox, passwordBoxgbc);
 
 		// submit button
 		JButton submitBtn = new JButton("submit");
